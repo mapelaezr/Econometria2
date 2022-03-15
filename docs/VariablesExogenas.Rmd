@@ -107,10 +107,10 @@ Debido a costos de ajuste, $x_t$ no es igual a $x^0_t$ en todos los periodos. Es
 Resolviendo por $x_t$ obtenemos,
 
  \begin{align}
-     x_t & = x_{t-1} - (1 - \lambda)x_{t-1} + (1-\lambda)\beta^0 z_t + (1-\lambda)\varepsilon_t +\upsilon_t \nonumber \\
+     x_t & = x_{t-1} - (1 - \lambda)x_{t-1} + (1-\lambda)\beta^0 z_t + (1-\lambda)\varepsilon_{t-1} +\upsilon_t \nonumber \\
      & = \beta z_t + \lambda x_{t-1} + u_t \label{map}
  \end{align}
- donde $\beta \equiv (1-\lambda)\beta^0$ y $u_t \equiv (1-\lambda)\varepsilon_t + \upsilon_t$.
+ donde $\beta \equiv (1-\lambda)\beta^0$ y $u_t \equiv (1-\lambda)\varepsilon_{t-1} + \upsilon_t$.
 
 Por lo tanto, el modelo de ajuste parcial lleva a una regresión lineal de $x_t$ con respecto a $z_t$ y $x_{t-1}$ 
 
