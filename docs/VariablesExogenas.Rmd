@@ -78,7 +78,7 @@ La ventaja de esta parametrización es que podemos obtener el error estándar de
 
 Una alternativa popular al modelo de rezagos distribuidos es el modelo de ajuste parcial, que fue propuesto, al menos para economía, por Nerlove (1958).
 
-Este modelo también es conocido como modelo de Koyk ya que la ecuación a estimar es la misma que el modelo de ajuste parcial, pero los supuestos iniciales son distintos. 
+*Este modelo también es conocido como modelo de Koyk ya que la ecuación a estimar es la misma que el modelo de ajuste parcial, pero los supuestos iniciales son distintos. *
 
 #
 
